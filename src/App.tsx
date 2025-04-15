@@ -190,18 +190,18 @@ const App = () => {
         className="custom-container py-[150px] md:grid md:grid-cols-2 md:gap-16 lg:grid-cols-4"
       >
         <div className="flex justify-center items-center">
-          <img src="src/assets/images/partner-1.svg" alt="" />
+          <img src="partner-1.svg" alt="" />
         </div>
 
         <div className="flex justify-center items-center">
-          <img src="src/assets/images/partner-2.svg" alt="" />
+          <img src="partner-2.svg" alt="" />
         </div>
 
         <div className="flex justify-center items-center">
-          <img src="src/assets/images/partner-3.svg" alt="" />
+          <img src="partner-3.svg" alt="" />
         </div>
         <div className="flex justify-center items-center">
-          <img src="src/assets/images/partner-4.svg" alt="" />
+          <img src="partner-4.svg" alt="" />
         </div>
       </motion.section>
 
