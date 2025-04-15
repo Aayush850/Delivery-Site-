@@ -3,7 +3,7 @@ type Faqs = {
   answer: string;
 };
 
-export const faqs = [
+export const faqs: Faqs[] = [
   {
     question: "Lorem ipsum dolor sit amet?",
     answer:
