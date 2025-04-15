@@ -16,7 +16,7 @@ const Sidebar: React.FC<SideBarProps> = ({
         isSideBarOpen ? "translate-x-0" : "-translate-x-full"
       }`}
     >
-      <div className="custom-container">
+      <div className="custom-container h-full flex flex-col justify-between">
         <div className="flex justify-between items-center py-5">
           <img src="logo.svg" alt="" />
           <button
@@ -27,7 +27,7 @@ const Sidebar: React.FC<SideBarProps> = ({
           </button>
         </div>
 
-        <div className="space-y-8 mt-20">
+        <div>
           <ul className="space-y-8">
             {navbarLinks.map((navbarlink, index) => {
               return (
@@ -39,6 +39,8 @@ const Sidebar: React.FC<SideBarProps> = ({
               );
             })}
           </ul>
+        </div>
+        <div className="py-5">
           <button className="btn-primary">Download App</button>
         </div>
       </div>

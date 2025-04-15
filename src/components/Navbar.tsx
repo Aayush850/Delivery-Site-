@@ -14,7 +14,10 @@ const Navbar: React.FC<NavbarProps> = ({ setIsSideBarOpen }) => {
           {navbarLinks.map((navbarlink, index) => {
             return (
               <li key={index}>
-                <a href={navbarlink.url} className="text-gray-500 text-lg">
+                <a
+                  href={navbarlink.url}
+                  className="text-gray-500 text-lg hover:text-primary transition-all ease-in-out duration-800"
+                >
                   {navbarlink.title}
                 </a>
               </li>

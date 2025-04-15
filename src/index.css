@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+.slick-next::before,
+.slick-prev::before {
+  content: "" !important;
+}
+
 @theme {
   --color-primary: #e8505b;
   --color-secondary: #263238;

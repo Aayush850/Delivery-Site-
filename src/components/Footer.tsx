@@ -15,7 +15,7 @@ const Footer = () => {
           <div className="flex flex-col w-max space-y-4">
             <a
               href=""
-              className="inline-flex gap-2 items-center border border-white rounded-lg px-2 py-4 hover:bg-primary transition-all ease-in duration-300 w-full"
+              className="inline-flex gap-2 items-center border border-white rounded-lg px-2 py-2 hover:bg-primary transition-all ease-in duration-300 w-full"
             >
               <div className="text-3xl">
                 <LiaApple />
@@ -27,7 +27,7 @@ const Footer = () => {
             </a>
             <a
               href=""
-              className="inline-flex gap-2 items-center border border-white rounded-lg px-2 py-4 hover:bg-primary transition-all ease-in duration-300 w-full"
+              className="inline-flex gap-2 items-center border border-white rounded-lg px-2 py-2 hover:bg-primary transition-all ease-in duration-300 w-full"
             >
               <div className="text-3xl">
                 <PiGooglePlayLogoLight />
